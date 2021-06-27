@@ -254,7 +254,7 @@ if __name__ == '__main__':
     input = np.array([data1, data2, data3, data4, data5]) # 5 * 3370
     # print(input.shape)
     fp = FuzzyPredictor(input, batch_size=125)
-    fp.train(clear_per_batch=True)
+    fp.train(clear_per_batch=False)
 
     test_input = np.array([[
                             [14237.41992, 14045.90039, 13764.36035, 13712.04004, 13574.86035],
@@ -271,4 +271,4 @@ if __name__ == '__main__':
     else:
         print("跌")
     end_time = time.time()
-    print("run time is: {}%".format(end_time - start_time))
+    print("run time is: {}s".format(end_time - start_time))
