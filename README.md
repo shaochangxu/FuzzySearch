@@ -1,6 +1,6 @@
 # FuzzySearch
 
-This is project to implement the paper Fuzzy Search "Fast Training Algorithms for Deep Convolutional Fuzzy Systems with Application to Stock Index Prediction"
+This is project to implement the paper Fuzzy Search ["Fast Training Algorithms for Deep Convolutional Fuzzy Systems with Application to Stock Index Prediction"](https://arxiv.org/pdf/1812.11226.pdf)
 ## Run
 python3 love.py
 
